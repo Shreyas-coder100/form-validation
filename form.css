@@ -1,0 +1,45 @@
+.form {
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+input{
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+
+.button {
+    background-color: rgba(0, 140, 195, 0.806);
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+h1{
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+
+.username_error, .password_error {
+    color: red;
+    display: none;
+}
